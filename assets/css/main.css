@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");
 @import url("font-awesome.min.css");
+/*@import url("https://use.fontawesome.com/releases/v5.8.1/css/all.css");*/
+
+
 
 /*
 	Helios by HTML5 UP
@@ -1912,6 +1915,7 @@ input, select, textarea {
 		background: rgba(128, 128, 128, 0.05);
 		border-radius: 4em;
 		display: inline-block;
+		/*margin: auto;*/
 		padding: 0.35em 0.75em 0.35em 0.75em;
 		font-size: 1.25em;
 		cursor: default;
@@ -2129,6 +2133,10 @@ input, select, textarea {
 			display: none;
 		}
 
+		.icon:not(.contact) > .label {
+			display: none;
+		}
+
 		.icon.circled {
 			position: relative;
 			display: inline-block;
@@ -2150,12 +2158,13 @@ input, select, textarea {
 
 	.wrapper {
 		background: #fff;
-		margin: 0 0 2em 0;
+		margin: auto;
 		padding: 6em 0 6em 0;
 	}
 
 		.wrapper.style2 {
 			padding-top: 0;
+			margin: auto;
 		}
 
 /* Header */
